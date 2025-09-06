@@ -1,0 +1,92 @@
+.auth-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.auth-card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  width: 350px;
+  text-align: center;
+}
+
+.auth-card h1 {
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.auth-card p {
+  margin: 6px 0 20px;
+  color: #666;
+}
+
+.input-group {
+  margin: 12px 0;
+}
+
+.auth-input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #f3e8ff;
+  outline: none;
+}
+
+.auth-btn {
+  width: 100%;
+  padding: 12px;
+  margin: 12px 0;
+  border: none;
+  border-radius: 25px;
+  background: #a020f0;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.auth-btn:hover {
+  background: #8a2be2;
+}
+
+.google-btn {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 2px solid #a020f0;
+  border-radius: 25px;
+  background: white;
+  color: #a020f0;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.forgot {
+  font-size: 14px;
+  color: #a020f0;
+  cursor: pointer;
+}
+
+.switch {
+  margin-top: 12px;
+  font-size: 14px;
+}
+
+.switch a {
+  color: #a020f0;
+  text-decoration: none;
+}
+
+.switch a:hover {
+  text-decoration: underline;
+}
+
+.or {
+  margin: 15px 0;
+  font-weight: bold;
+}
